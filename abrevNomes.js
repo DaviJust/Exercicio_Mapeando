@@ -7,6 +7,6 @@ const catLovers = [
   ]
 
   const ofAgeCatLovers = catLovers.filter(({age}) => age > 18)
-  const shortNamess = ofAgeCatLovers.map(({name}) => name.substring(0,3))
+  const shortNamess = ofAgeCatLovers.map(({name}) => name.substring(0,2))
 
   console.log(shortNamess)
